@@ -1,0 +1,155 @@
+company - https://velbiom.com/
+
+                                1-     Framework
+
+To determine whether a company is genuinely involved in probiotics, I focus on clear, observable indicators available on its website. The aim is to distinguish companies where probiotics are a core business focus from those where they are only a supplementary or marketing-driven mention.
+
+I use the following framework:
+
+
+1. Presence of Probiotics
+
+What I search for:
+
+I verify if they market legitimate probiotic products like capsules, packets, powders, and bulk active ingredients. I also check for technical information like strains and CFUs on their product pages.
+
+Why this matters:
+
+If a company has invested in overtly listed probiotic brands, it indicates direct commercial involvement. This indicates greater involvement than blog sites and general health-related activity, which could be purely commercial in motivation.
+
+2. Scientific or R&D Orientation
+
+What I look for:
+
+Use of terms like research, studies, strain-level data (Lactobacillus or Bifidobacterium), laboratory testing within their facilities, or partnerships with
+
+Why it matters:
+
+“Probiotics are science-based products.”
+Companies that are serious about probiotics typically engage in research and development rather than just merely brand-building.
+
+3. Signals from Regulations and Quality
+
+“What I look for in life.”
+
+Certifications like GMP, ISO standards, FSSAI certification, or Pharma-grade or Nutraceutical manufacturing standards.
+
+What this means:
+
+Probiotic production requires controlled manufacturing and regulatory compliance. These signals indicate commercial-scale and quality-driven operations.
+
+4. Application Areas and Use Cases
+
+What I look for:
+Clear explanations of probiotic use cases such as gut health, immunity, women’s health, pediatric nutrition, or animal nutrition.
+
+Why this matters:
+Defined application areas show that the company understands practical probiotic usage, rather than making vague health claims.
+
+5.   Commercial Intent and Business Focus
+
+What I look for:
+Whether probiotics are featured through dedicated product pages, portfolios, or brochures, instead of appearing only in blogs or educational articles.
+
+Why this matters:
+This helps identify whether probiotics are a core business driver or merely an adjacent topic.
+
+                            2-     Company  Website Analysis
+
+Company Analysed: Velbiom Probiotics Pvt. Ltd.
+Website: https://velbiom.com/
+
+1. fits-
+
+The company clearly positions itself as India’s first exclusive probiotic company, which directly aligns with the probiotics-focused objective.
+
+The products page shows strain-specific probiotic products offered in capsule form, indicating real commercial probiotic offerings rather than generic supplements.
+
+Website content explicitly explains the role of beneficial bacteria (probiotics) in restoring gut balance, differentiating probiotics from antibiotics.
+
+There are references to medical practitioners, researchers, and pharmacists being involved in formulation, suggesting a level of scientific and R&D orientation.
+
+Probiotics are discussed as core treatment options, not as an add-on or secondary ingredient.
+
+2. not fit -
+
+While probiotic strains are mentioned conceptually, detailed strain-level specifications and CFU counts are not consistently visible across all product pages.
+
+Regulatory and compliance details (such as GMP, ISO, or FSSAI certifications) are not prominently displayed or consolidated in a dedicated quality or compliance section.
+
+Some content uses educational and awareness-oriented language, which overlaps slightly with marketing, although it still supports the probiotic focus.
+
+3. Website evidence-
+   Exact CFU counts per product are not clearly mentioned in the publicly visible sections.
+
+Formal clinical trial documentation or published research papers are not directly linked.
+
+Manufacturing certifications and regulatory approvals are not explicitly verifiable from the website alone.
+
+4. Final Classification-
+
+Classification: Probiotics-focused
+
+Reasoning:
+Velbiom’s core business revolves around probiotic products, with clear commercial offerings, probiotic-specific positioning, and involvement of medical and research professionals. Although some regulatory and technical details are not fully disclosed on the website, the overall evidence strongly indicates that probiotics are the primary focus of the company, not an adjacent or incidental activity.
+
+                    3-     Scraper Logic (High-Level)
+
+To extend the scraper built in Task 1 for identifying and classifying probiotic-focused companies, the approach would focus on targeted page analysis, signal extraction, and simple rule-based scoring rather than complex automation.
+
+1. Pages to scrape
+
+The scraper would prioritize a small set of high-signal pages where probiotic-related information is most likely to appear:
+
+Homepage
+To understand overall positioning, key claims, and whether probiotics are central to the company’s identity.
+
+Products / Portfolio Pages
+To detect probiotic products, formulations, dosage forms, and strain-level mentions.
+
+R&D / Technology Pages
+To identify scientific backing, research focus, clinical validation, and strain development activities.
+
+Applications / Therapeutic Areas
+To understand how probiotics are applied (gut health, immunity, women’s health, animal nutrition, etc.).
+
+Certifications / Compliance Pages
+To extract regulatory and quality indicators such as GMP, ISO, FSSAI, or pharma-grade manufacturing claims.
+
+This focused page selection keeps the scraper efficient, transparent, and reliable.
+
+2. Signals to Extract
+
+From the selected pages, the scraper would look for explicit textual signals, including:
+
+Keyword signals
+Terms such as probiotics, CFU, live cultures, gut microbiome, beneficial bacteria.
+
+Strain-level indicators
+Scientific strain names like Lactobacillus, Bifidobacterium, Saccharomyces.
+
+Scientific validation
+Mentions of clinical studies, research trials, formulation science, or laboratory testing.
+
+Regulatory and quality markers
+References to GMP, ISO, FSSAI, nutraceutical or pharma-grade compliance.
+
+Product formats
+Capsules, sachets, powders, liquid formulations, or feed additives specifically described as probiotic products.
+
+The scraper would record only what is explicitly stated, avoiding inferred or assumed claims.
+
+3. How classification would work
+
+A simple rule-based scoring system would be used to classify companies consistently:Probiotics as a core product category-3, Strain-level details or CFU counts-2,R&D or clinical research mentions-2,Regulatory / quality certifications-1,General marketing-level probiotic mention-1,Vague or one-off mention−(-1),No meaningful probiotic evidence-(-2)
+
+                                   Final Classification Rules
+
+Probiotics-focused
+High cumulative score with multiple strong signals across products, science, and compliance.
+
+Probiotics-adjacent
+Moderate score with limited or partial probiotic involvement.
+
+Not relevant
+Low or negative score with no meaningful probiotic evidence.

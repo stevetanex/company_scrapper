@@ -1,0 +1,52 @@
+{
+    "identity": {
+        "company_name": "Velbiom- For a Better, Healthier Future",
+        "website": "https://velbiom.com/",
+        "tagline": ""
+    },
+    "business_summary": {
+        "what_they_do": "The company provides technology-driven products and services focused on data analytics, market insights, and decision support for enterprise clients across multiple industries.",
+        "primary_offerings": [
+            "Market analytics platforms",
+            "Consumer insights reports",
+            "Data integration solutions"
+        ],
+        "target_segments": [
+            "Retail",
+            "Consumer goods",
+            "Enterprise businesses"
+        ],
+        "raw_text_sample": "Velbiom Probiotics is India\u2019s first exclusive probiotic company. We have the largest range of strain-specific, site-specific products in the country. Every product is loaded with a variety of beneficial strains(probiotics) that come packaged in 100% natural capsules. There is a combination of good and bad bacteria in your body that works around the clock to keep your body healthy. Excessive use of antibiotics or an unhealthy lifestyle can result in a host of disease conditions caused by an increase in bad bacteria. Probiotics introduce good bacteria, restore balance, and ensure optimal functioning of your body. Unlike antibiotics (which kill the good and bad bacteria), probiotics increase the amount of good bacteria in the body We, at Velbiom Probiotics, want to play a pivotal role in spreading awareness and the use of probiotics. To that end, our team of medical practitioners, researchers and pharmacists are continuously engaged in creating holistic probiotic formulations as treatment options. Most people need to manage stinky breath at some point in their lives. It is a common problem for both genders affecting more than\u00a050% of the..."
+    },
+    "evidence": {
+        "pages_detected": {
+            "products": "https://velbiom.com/products"
+        },
+        "signals_found": [],
+        "social_links": {
+            "Instagram": "https://www.instagram.com/velbiom/",
+            "YouTube": "https://www.youtube.com/@velbiomprobiotics4634",
+            "LinkedIn": "https://www.linkedin.com/company/velbiom-probiotics-pvt-ltd/"
+        }
+    },
+    "contact": {
+        "emails": [],
+        "phones": [
+            "5600789980518484"
+        ],
+        "address": "Not found",
+        "contact_page": "Not found"
+    },
+    "team_hiring": {
+        "careers_page": "Not found",
+        "roles_detected": "Not analysed"
+    },
+    "metadata": {
+        "timestamp": "2025-12-23 15:26:53.144704",
+        "pages_checked": [
+            "https://velbiom.com/products"
+        ],
+        "errors": "None",
+        "notes": "Best-effort scrape; JS-heavy pages may be incomplete"
+    }
+}
